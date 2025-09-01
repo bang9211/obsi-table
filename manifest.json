@@ -1,0 +1,11 @@
+{
+  "id": "obsi-table",
+  "name": "Obsi-Table",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Efficient table creation and management plugin for Obsidian with advanced editing features",
+  "author": "bang9211",
+  "authorUrl": "https://github.com/bang9211",
+  "fundingUrl": "",
+  "isDesktopOnly": false
+}

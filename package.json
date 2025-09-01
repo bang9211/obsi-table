@@ -1,0 +1,41 @@
+{
+  "name": "obsi-table",
+  "version": "1.0.0",
+  "description": "Efficient table creation and management plugin for Obsidian",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write .",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:ci": "jest --coverage --watchAll=false"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "table",
+    "markdown"
+  ],
+  "author": "obsi-table",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "0.17.3",
+    "eslint": "^8.18.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "obsidian": "latest",
+    "prettier": "^2.7.1",
+    "ts-jest": "^29.1.0",
+    "tslib": "2.4.0",
+    "typescript": "4.7.4"
+  }
+}

@@ -1,0 +1,61 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+main.js
+*.js.map
+
+# Distribution directory
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+*.lcov
+
+# Cache directories
+.serena
+.cache
+
+# Claude Code settings
+.claude/
+CLAUDE.md
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+
+# Editor backups
+*~
+*.swp
+*.swo
+
+# Package lock files (if using yarn)
+yarn.lock
+
+# Hot reload
+.hot-reload
+
+# Development plans and temporary documentation
+plan/
+*.md.bak
